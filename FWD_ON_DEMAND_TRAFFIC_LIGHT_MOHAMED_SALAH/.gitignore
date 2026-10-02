@@ -1,0 +1,11 @@
+# Microchip Studio / Atmel Studio
+.vs/
+GccApplication1/Debug/
+*.o
+*.d
+*.elf
+*.map
+*.lss
+*.eep
+*.srec
+*.atsuo
