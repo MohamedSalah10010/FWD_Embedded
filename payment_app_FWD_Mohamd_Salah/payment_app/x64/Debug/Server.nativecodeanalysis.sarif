@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///g:/payment_app/payment_app/server/server.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a07fc90a17d7823bf875fc0f050fe4cd03986e14d7946743e7d7433f36e9d708"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/payment_app/payment_app/server/server.h"
+          },
+          "hashes": {
+            "sha-256": "9fbca6d71a18dbb4f7abfcf3160e57c798fa7b8b53419198c0375bec95cff579"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/payment_app/payment_app/terminal/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "fc3556d2f48ec6334ecfd8ce55d702b262ce10937f1415762073ea3e08a25514"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/payment_app/payment_app/card/card.h"
+          },
+          "hashes": {
+            "sha-256": "3a0fc46bb07bdc0d7bb847302d763bbd7b0d6959f2f56807fc827af15096f892"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/payment_app/payment_app/lib/std_types.h"
+          },
+          "hashes": {
+            "sha-256": "9a435e1f9fbc3e91a6cebadce7b94aeadb7c082bf29420d832d81e882d95b19b"
+          }
+        }
+      ]
+    }
+  ]
+}

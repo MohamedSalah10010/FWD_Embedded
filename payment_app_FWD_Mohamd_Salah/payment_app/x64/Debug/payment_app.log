@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (payment_app.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Server.c
+G:\payment_app\payment_app\Server\Server.c(6,10): warning C4142: 'sequance': benign redefinition of type
+G:\payment_app\payment_app\Server\Server.h(9): message : see declaration of 'sequance'
+G:\payment_app\payment_app\Server\Server.c(64,46): warning C4133: 'function': incompatible types - from 'ST_cardData_t *' to 'ST_terminalData_t *'
+G:\payment_app\payment_app\Server\Server.c(66,43): warning C4133: 'function': incompatible types - from 'ST_cardData_t *' to 'ST_terminalData_t *'
+G:\payment_app\payment_app\Server\Server.c(73,22): warning C4013: 'strcmp' undefined; assuming extern returning int
+G:\payment_app\payment_app\Server\Server.c(119,14): warning C4013: 'strcpy' undefined; assuming extern returning int
+G:\payment_app\payment_app\Server\Server.c(154,14): warning C4013: 'printf' undefined; assuming extern returning int
+G:\payment_app\payment_app\Server\Server.c(169,10): warning C4013: 'puts' undefined; assuming extern returning int
+  payment_app.vcxproj -> G:\payment_app\x64\Debug\payment_app_FWD_Mohamed_Salah.exe
